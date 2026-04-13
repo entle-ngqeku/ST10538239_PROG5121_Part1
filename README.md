@@ -21,3 +21,25 @@ Invalid password (no uppercase letter)
 Invalid password (no number)
 Invalid password (no special character)
 Invalid password (too short)
+
+3. Phone Number Validation
+Valid phone number (starts with +27 and is exactly 12 characters long)
+Invalid phone number (wrong format)
+4. Registration
+Successful registration (when all inputs are valid)
+Failed registration (when phone number is invalid)
+5. Login
+Successful login (when username and password match)
+Failed login (when username or password is incorrect)
+Example Usage
+User Registration
+The user is prompted to enter:
+If the input is valid, the user will be registered successfully.
+A valid username (e.g., ky_1)
+A valid password (e.g., Ch&&sec@ke99)
+A valid South African phone number (e.g., +27837719808)
+## User Login
+After successful registration, the user can log in by providing:
+The system will authenticate the credentials and provide feedback on the success or failure of the login attempt.
+The username (e.g., ky_1)
+The password (e.g., Ch&&sec@ke99) 
