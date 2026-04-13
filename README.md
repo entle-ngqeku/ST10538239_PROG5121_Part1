@@ -14,3 +14,10 @@ The following test cases are covered in the project:
 Valid username (contains an underscore and has a length ≤ 5)
 Invalid username (no underscore)
 Invalid username (length > 5)
+
+2. Password Validation
+Valid password (at least 8 characters, contains an uppercase letter, a digit, and a special character)
+Invalid password (no uppercase letter)
+Invalid password (no number)
+Invalid password (no special character)
+Invalid password (too short)
